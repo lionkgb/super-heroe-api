@@ -7,11 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 50.times do
   SuperHero.create(
-     name: Faker::Superhero.name
-     power: Faker::Superhero.power
-     descriptor: Faker::Superhero.descriptor
-    
-    )  
+    name: Faker::Superhero.name,
+    power: Faker::Superhero.power,
+    descriptor: Faker::Superhero.descriptor,   
+  )  
 end
 
 
